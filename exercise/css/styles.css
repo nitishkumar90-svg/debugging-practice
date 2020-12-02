@@ -43,6 +43,7 @@ main {
   font-size: 12rem;
   font-weight: bold;
   text-shadow: 0 0.5rem 2rem -0.5rem rgba(0, 0, 0, 0.1);
+  cursor: pointer;
 }
 
 .card:nth-child(3n - 1) {
@@ -57,4 +58,5 @@ the background colour to white.
 .card.is-selected,
 .card.is-matched {
   background: #fff;
+  cursor: text;
 }
